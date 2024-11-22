@@ -1,0 +1,34 @@
+# Ignore Go build artifacts
+*.exe
+*.out
+*.o
+
+# Ignore temporary files and directories
+*.tmp
+*.log
+*.swp
+*.bak
+*.pid
+*.sock
+
+# Ignore version control files
+.git
+.gitignore
+.gitattributes
+
+# Ignore directories that are not needed in the build
+vendor/
+node_modules/
+test/
+
+# Ignore editor and IDE files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files (use --env-file instead of baking in .env)
+.env
